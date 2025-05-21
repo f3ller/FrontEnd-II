@@ -1,0 +1,118 @@
+/* Ümumi düzən */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sol Panel (Göy) */
+.sidebar {
+  background-color: #1d3557; /* Tünd göy */
+  color: white;
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.sidebar h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  color: #a8dadc;
+}
+
+.sidebar p, .sidebar li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Profil Şəkli */
+.profile-img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Sağ Panel (Ağ) */
+.content {
+  background-color: white;
+  width: 70%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header span {
+  color: #1d3557;
+}
+
+header h2 {
+  font-size: 18px;
+  color: #457b9d;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #1d3557;
+  border-bottom: 2px solid #a8dadc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Təcrübə və Təhsil Bölmələri */
+.job, .edu-item, .ref {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.job h4, .edu-item strong {
+  color: #1d3557;
+  font-weight: bold;
+}
+
+/* Siyahılar */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Input və Button üslubları */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 50px;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #457b9d;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1d3557;
+}

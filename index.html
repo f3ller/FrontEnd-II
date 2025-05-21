@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Richard Sanchez CV</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+      
+      <section class="contact">
+        <h3>CONTACT</h3>
+        <p>📞 +123-456-7890</p>
+        <p>📧 hello@reallygreatsite.com</p>
+        <p>📍 123 Anywhere St., Any City</p>
+        <p>🌐 www.reallygreatsite.com</p>
+      </section>
+
+      <section class="education">
+        <h3>EDUCATION</h3>
+        <div id="education-list">
+          <div class="edu-item">
+            <strong>2029 - 2030</strong><br>
+            WARDIERE UNIVERSITY<br>
+            Master of Business Management
+          </div>
+          <div class="edu-item">
+            <strong>2025 - 2029</strong><br>
+            WARDIERE UNIVERSITY<br>
+            Bachelor of Business<br>
+            GPA: 3.8 / 4.0
+          </div>
+        </div>
+        <input type="text" id="edu-input" placeholder="Yeni təhsil məlumatı">
+        <button onclick="addEducation()">Əlavə et</button>
+      </section>
+
+      <section class="skills">
+        <h3>SKILLS</h3>
+        <ul id="skills-list">
+          <li>Project Management</li>
+          <li>Public Relations</li>
+          <li>Teamwork</li>
+          <li>Time Management</li>
+          <li>Leadership</li>
+          <li>Effective Communication</li>
+          <li>Critical Thinking</li>
+        </ul>
+        <input type="text" id="skill-input" placeholder="Yeni bacarıq">
+        <button onclick="addSkill()">Əlavə et</button>
+      </section>
+    </aside>
+
+    <main class="content">
+      <header>
+        <h1><span>RICHARD</span> SANCHEZ</h1>
+        <h2>MARKETING MANAGER</h2>
+      </header>
+
+      <section class="profile">
+        <h3>PROFILE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      </section>
+
+      <section class="experience">
+        <h3>WORK EXPERIENCE</h3>
+        <div id="experience-list">
+          <div class="job">
+            <h4>Borcelle Studio <span>2030 - PRESENT</span></h4>
+            <p>Marketing Manager & Specialist</p>
+            <ul>
+              <li>Develop and execute marketing strategies</li>
+              <li>Lead and mentor the team</li>
+              <li>Monitor brand consistency</li>
+            </ul>
+          </div>
+        </div>
+        <input type="text" id="exp-role" placeholder="Vəzifə və şirkət">
+        <textarea id="exp-details" placeholder="Təcrübə detalları"></textarea>
+        <button onclick="addExperience()">Əlavə et</button>
+      </section>
+
+      <section class="references">
+        <h3>REFERENCE</h3>
+        <div class="ref">
+          <p><strong>Estelle Darcy</strong><br>Wardiere Inc. / CTO<br>📞 123-456-7890<br>📧 hello@reallygreatsite.com</p>
+        </div>
+        <div class="ref">
+          <p><strong>Harper Richard</strong><br>Wardiere Inc. / CEO<br>📞 123-456-7890<br>📧 hello@reallygreatsite.com</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
